@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 3</title>
+</head>
+<body>
+<script>
+  let inputStr = prompt('Enter the String: ');
+  let arr = inputStr.split('');
+  for (let i = 0; i < arr.length; i++) {
+   if (arr[i]==arr[i].toLowerCase()){
+     arr[i]=arr[i].toUpperCase();
+   }
+   // else {
+   //   arr[i]=arr[i].toLowerCase();
+   // }
+  }
+  document.write(arr.join(''));
+</script>
+</body>
+</html>
